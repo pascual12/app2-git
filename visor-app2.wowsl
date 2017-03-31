@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.7</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>13</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>visor-app2</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>cube_over</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/convex/</ImageTemplate>
+            <ImageTemplateName>Convex</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishIndex>wowslider.html</PublishIndex>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#54ACD2</TemplateColor>
+            <TemplateFont>Gurajada</TemplateFont>
+            <TemplateName>convex</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>E:/dam/segundo parcial/aplicaciones/app2/imagenes/cel1.jpg</url>
+                <title>cel1</title>
+                <filesize>7739</filesize>
+            </Image>
+            <Image>
+                <url>E:/dam/segundo parcial/aplicaciones/app2/imagenes/celular0.jpg</url>
+                <title>celular0</title>
+                <filesize>8303</filesize>
+            </Image>
+            <Image>
+                <url>E:/dam/segundo parcial/aplicaciones/app2/imagenes/celular1.jpg</url>
+                <title>celular1</title>
+                <filesize>6585</filesize>
+            </Image>
+            <Image>
+                <url>E:/dam/segundo parcial/aplicaciones/app2/imagenes/celular2.jpg</url>
+                <title>celular2</title>
+                <filesize>6971</filesize>
+            </Image>
+            <Image>
+                <url>E:/dam/segundo parcial/aplicaciones/app2/imagenes/media.jpg</url>
+                <title>media</title>
+                <filesize>34935</filesize>
+            </Image>
+            <Image>
+                <url>E:/dam/segundo parcial/aplicaciones/app2/imagenes/movistar.jpg</url>
+                <title>movistar</title>
+                <filesize>8295</filesize>
+            </Image>
+            <Image>
+                <url>E:/dam/segundo parcial/aplicaciones/app2/imagenes/segundo.jpg</url>
+                <title>segundo</title>
+                <filesize>43569</filesize>
+            </Image>
+            <Image>
+                <url>E:/dam/segundo parcial/aplicaciones/app2/imagenes/telcel.jpg</url>
+                <title>telcel</title>
+                <filesize>5851</filesize>
+            </Image>
+            <Image>
+                <url>E:/dam/segundo parcial/aplicaciones/app2/imagenes/unefon.jpg</url>
+                <title>unefon</title>
+                <filesize>7560</filesize>
+            </Image>
+            <Image>
+                <url>E:/dam/segundo parcial/aplicaciones/app2/imagenes/celular3.jpg</url>
+                <title>celular3</title>
+                <filesize>4507</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

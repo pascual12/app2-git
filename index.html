@@ -1,0 +1,377 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Segunda Aplicacion</title>
+
+ <!--grupo CSS-->
+ <link rel="stylesheet" href="css/tema-app1.min.css"/>
+ <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+ <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+ <!--grupo javaScript-->
+ <script src="js/jquery-1.11.2.min.js"></script>
+ <script src="js/jquery.mobile-1.4.5.min.js"></script>
+ <script src="js/acciones.js"></script>
+ <script src="phonegap.js"></script>
+ 
+ <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+ 
+ </style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+ 
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/celular0.jpg','imagenes/celular3.jpg')" >
+
+    <div data-role="page" id="Principal" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1> Telefonia Celular </h1>
+       </div>
+       <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false" align="center">
+          <h1> Celular</h1>
+           <div>
+            <p> SAMSUNG S7: </p>
+              <br>
+              </div>
+              <div>
+                <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','imagenes/celular0.jpg',1)"><img src="imagenes/celular1.jpg" width="300" height="168" id="Image4"></a> </div>
+               </div>
+              </div>
+                     <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false" align="center">
+          <h1> Celular</h1>
+           <div>
+            <p> XPERIA X: </p>
+              <br>
+              </div>
+              <div>
+                <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','imagenes/celular3.jpg',1)"><img src="imagenes/celular2.jpg" width="284" height="178" id="Image17"></a> </div>
+               </div>
+              </div>
+             <div>
+             <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+             <li class="ui-first-child ui-last-child">
+               <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                  <h2> Definicion</h2>
+                  <p> se muestra la deficion de un telefono celular</p>
+               </a>
+             </li>
+             <li class="ui-first-child ui-last-child">
+               <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                  <h2>Historia</h2>
+                  <p>Se muestra la historia del telefono celular</p>
+               </a>
+            </li>
+            <li class="ui-first-child ui-last-child">
+               <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                  <h2>Clasificacion</h2>
+                  <p>Se muestra la clasificacion de los celulares (gama baja,media y alta)</p>
+               </a>
+             </li>
+             <li class="ui-first-child ui-last-child">
+               <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                  <h2>Compañias</h2>
+                  <p>Se muestra las compañias que ofrecen el servicio de telefonia celular en mexico</p>
+               </a>  
+             </li>
+              </ul>
+              <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/cel1.jpg" alt="cel1" title="cel1" id="wows1_0"/></li>
+		<li><img src="data1/images/celular0.jpg" alt="celular0" title="celular0" id="wows1_1"/></li>
+		<li><img src="data1/images/celular1.jpg" alt="celular1" title="celular1" id="wows1_2"/></li>
+		<li><img src="data1/images/celular2.jpg" alt="celular2" title="celular2" id="wows1_3"/></li>
+		<li><img src="data1/images/media.jpg" alt="media" title="media" id="wows1_4"/></li>
+		<li><img src="data1/images/movistar.jpg" alt="movistar" title="movistar" id="wows1_5"/></li>
+		<li><img src="data1/images/segundo.jpg" alt="segundo" title="segundo" id="wows1_6"/></li>
+		<li><img src="data1/images/telcel.jpg" alt="telcel" title="telcel" id="wows1_7"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/unefon.jpg" alt="jquery slider" title="unefon" id="wows1_8"/></a></li>
+		<li><img src="data1/images/celular3.jpg" alt="celular3" title="celular3" id="wows1_9"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="cel1"><span><img src="data1/tooltips/cel1.jpg" alt="cel1"/>1</span></a>
+		<a href="#" title="celular0"><span><img src="data1/tooltips/celular0.jpg" alt="celular0"/>2</span></a>
+		<a href="#" title="celular1"><span><img src="data1/tooltips/celular1.jpg" alt="celular1"/>3</span></a>
+		<a href="#" title="celular2"><span><img src="data1/tooltips/celular2.jpg" alt="celular2"/>4</span></a>
+		<a href="#" title="media"><span><img src="data1/tooltips/media.jpg" alt="media"/>5</span></a>
+		<a href="#" title="movistar"><span><img src="data1/tooltips/movistar.jpg" alt="movistar"/>6</span></a>
+		<a href="#" title="segundo"><span><img src="data1/tooltips/segundo.jpg" alt="segundo"/>7</span></a>
+		<a href="#" title="telcel"><span><img src="data1/tooltips/telcel.jpg" alt="telcel"/>8</span></a>
+		<a href="#" title="unefon"><span><img src="data1/tooltips/unefon.jpg" alt="unefon"/>9</span></a>
+		<a href="#" title="celular3"><span><img src="data1/tooltips/celular3.jpg" alt="celular3"/>10</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">bootstrap slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+            </div>
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+              <div>
+                <img src="imagenes/logo.png" width="46" height="46">
+              </div>
+              <div>
+                <h4>Aplicacion dos </h4>
+                <h4> Saul Pascual Sacramento Martinez</h4>  
+              </div> 
+            </div>
+            </div> 
+            <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a"> 
+              <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+               <h1>Definicion</h1>
+            </div>
+            <div data-role="content" align="center">
+              <div>  
+                <h2> Se conoce como celular al dispositivo inalámbrico electrónico que está preparado para tener acceso a la telefonía celular, también conocida como móvil.
+
+En tanto, la denominación celular tiene su razón de ser en que cada una de las antenas repetidoras, que forman parte de la red, son células.
+
+El rasgo diferencial que ostenta el teléfono celular por sobre los otros tipos de teléfono es su fácil portación, en la cartera, en el bolso, incluso en los bolsillos del pantalón o pollera, los seres humanos que formamos parte de esta comunidad conectada celularmente podemos llevar con nosotros y a cualquier lado este tipo de teléfono porque no pesan casi nada.</h2>
+              </div>
+            </div>
+            <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false" align="center">
+          <h1> Celular</h1>
+           <div>
+            <p> MOTOROLA </p>
+              <br>
+              </div>          
+              <div>
+                <img src="imagenes/cel1.jpg" width="200" height="200">
+                </div>
+               </div>
+              </div>
+            <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false" align="center">
+          <h1> Celular</h1>
+           <div>
+            <p> LG </p>
+              <br>
+              </div>
+              <div>
+                <img src="imagenes/lg.jpg"width="200" height="200">
+                </div>
+               </div>
+              </div>
+            <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false" align="center">
+          <h1> Celular</h1>
+            <div>
+            <p> ZTE </p>
+              <br>
+              </div>
+              <div>
+                <img src="imagenes/zte.jpg" width="200" height="200">
+                </div>
+               </div>
+              </div>                           
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+              <div>
+                <img src="imagenes/logo.png" width="46" height="46">
+              </div>
+              <div>
+                <h4>App2-SPSM </h4>  
+              </div> 
+            </div>
+            </div> 
+                     
+                     
+           <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a"> 
+              <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+               <h1>Historia</h1>
+            </div>
+            <div data-role="content" align="center">
+              <div>  
+                <h2> El teléfono móvil o teléfono celular es un aparato indispensable en la actualidad; sin embargo su popularización ha sido un fenómeno muy reciente. En un principio el teléfono móvil solo podía ser usado en vehículos por su tamaño, reduciéndose posteriormente a una unidad portátil, y finalmente al tamaño de bolsillo que utilizamos hoy. Pero el teléfono en sí es solo una pequeña parte de un sistema de telefonía mayor.
+
+El sistema celular fue creado para satisfacer la demanda de comunicación móvil dentro de un espectro de radiofrecuencia limitado. Esta limitación es el factor original que motivó y sigue motivando el desarrollo del teléfono móvil, frente a otros de los varios factores como la duración de la batería o el tamaño del aparato. El sistema debe acomodar miles de usuarios dentro de un espectro reducido para transmitir cada vez más información. La transmisión de voz, pero actualmente también la demanda de imágenes, vídeos y acceso a internet, continúan aumentando los requisitos del sistema.</h2></div>
+              </div>
+               <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false" align="center">
+          <h1> Celular</h1>
+           <div>
+            <p> Motorola </p>
+              <br>
+              </div>          
+              <div>
+                <img src="imagenes/motorola.jpg" width="200" height="200">
+                </div>
+               </div>
+              </div>
+            <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false" align="center">
+          <h1> Celular</h1>
+           <div>
+            <p> Motorola DynaTAC </p>
+              <br>
+              </div>
+              <div>
+                <img src="imagenes/segundo.jpg" width="200" height="200">
+                </div>
+               </div>
+              </div>
+            <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false" align="center">
+          <h1> Celular</h1>
+            <div>
+            <p> Motorola </p>
+              <br>
+              </div>
+              <div>
+                <img src="imagenes/cel1.jpg" width="200" height="200">
+                </div>
+               </div>
+              </div>          
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+            <div>
+                <img src="imagenes/logo.png" width="46" height="46">
+              </div>
+               <h4> App2-SPSM</h4>
+            </div>
+          </div>
+          
+          
+          <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a"> 
+              <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+               <h1>Clasificacion</h1>
+            </div>
+            <div data-role="content" align="center">
+              <div>  
+                <h2> Gama alta</h2>
+                <h4>
+Al estar rodeados en nuestra vida diaria por smartphones muchos lo damos por hecho, pero ¿qué es lo que necesita un smartphone para ser considerado como gama alta? ¿Son simplemente especificaciones, o hay algo más tras todos estos números?
+¿Qué define a los smartphones de gama alta?
+Al igual que muchas personas, a la hora de clasificar smartphones no los suelo clasificar por marcas o sistemas operativos, los clasifico por precio. Es algo lógico: no todo el mundo puede permitirse pagar 700 o más euros por un terminal de gama alta, e incluso aquellos que sí pueden se lo piensan dos veces antes de pagarlos, ya que es un desembolso de dinero bastante importante para algo que podría hacer un smartphone de un tercio de su valor. Por ello, la pregunta es obligada ¿qué tienen los smartphones de gama alta para ser clasificados como tal?</h4></div>
+              </div>
+              <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false" align="center">
+          <h1> SAMSUNG S7</h1>
+              <div>
+                <img src="imagenes/celular0.jpg" width="200" height="200">
+                </div>
+               </div>
+              </div>
+              <div data-role="content" align="center">
+              <div>  
+                <h2> Gama media</h2>
+                <h4>Aquí se ubican los SmartPhones algunos dispositivos de marcas asiáticas, dispositivos devaluados por el tiempo que tienen en el mercado (puede ser engañoso) y las propuestas conservadoras en especificaciones de marcas reconocidas que pueden hacer mucho pero no tanto.
+
+Suelen ser muy equilibrados en sus características
+Generalmente no superan los 500 dólares en precio (como mucho).
+Tienen algunas funciones de la gama alta del momento.
+Los materiales ya son de calidad aceptable.
+Pantallas que no superan las 4.5 pulgadas (en promedio).
+Cámaras de 3 a 5 Mpx
+Tienen soporte limitado pero existe comunidad de desabolladores para actualizar con una ROM</h4></div>
+              </div>
+              <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false" align="center" >
+          <h1> LG</h1>
+              <div>
+                <img src="imagenes/media.jpg" width="200" height="200">
+                </div>
+               </div>
+              </div>
+              <div data-role="content" align="center">
+              <div>  
+                <h2> Gama baja</h2>
+                <h4>sEn está categoría entran desde marcas chinas, imitaciones de gama media o alta hasta terminales obsoletos con muy pocas excepciones (Ej: el nokia n8 es una reliquia de colección pero su cámara es muy adelantada para cuando fue lanzado al mercado)
+
+Suelen ser pequeñosHTC-desire-960x623
+Tienen funciones básicas o las funciones que traen ya no están a la altura de un SmartPhone (ej:nokia)
+Precios muy economicos
+Características muy limitadas (cámara VGA, memoria interna, sin flash, se ponen muy lentos con el tiempo)
+No reciben soporte ni actualizaciones.</h4></div>
+              </div>
+              <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false" align="center">
+          <h1> HTC</h1>
+              <div>
+                <img src="imagenes/baja.jpg" width="200" height="200">
+                </div>
+               </div>
+              </div>
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+            <div>
+                <img src="imagenes/logo.png" width="46" height="46">
+              </div>
+               <h4> App2-SPSM</h4>
+            </div>
+          </div>
+          
+          
+          <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a"> 
+              <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+               <h1>Compañias</h1>
+            </div>
+            <div data-role="content" align="center">
+              <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false" align="center">
+          <h1> TELCEL</h1>
+              <div>
+                <img src="imagenes/telcel.jpg" width="200" height="200">
+                </div>
+               </div>
+              </div>
+              <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false" align="center">
+          <h1> MOVISTAR</h1>
+              <div>
+                <img src="imagenes/movistar.jpg" width="200" height="200">
+                </div>
+               </div>
+              </div>
+              <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false" align="center">
+          <h1> AT&T </h1>
+              <div>
+                <img src="imagenes/at.png" width="200" height="200">
+                </div>
+               </div>
+              </div>
+              <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false" align="center">
+          <h1> UNEFON</h1>
+              <div>
+                <img src="imagenes/unefon.jpg" width="200" height="200">
+                </div>
+               </div>
+              </div>
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+            <div>
+                <img src="imagenes/logo.png" width="46" height="46">
+              </div>
+               <h4> App2-SPSM</h4>
+            </div>
+          </div>     
+                  
+          
+</body>
+</html>
